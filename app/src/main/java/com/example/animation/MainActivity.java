@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity {
            public void onClick(View view) {
               // Log.i("MyTag","Button is tapped now");
 
-               txt.animate().alpha(0.0f).setDuration(2000);
-               txtlater.animate().alpha(1.0f).setDuration(2000);
+               txt.animate().alpha(0.0f).setDuration(3000);
+               txtlater.animate().alpha(1.0f).setDuration(3000);
 
            }
        });
